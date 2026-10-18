@@ -1,0 +1,38 @@
+{
+    "DroneNavigation": {
+        "checkpoints": [
+            {
+                "steps": 499895,
+                "file_path": "results\\drone_ppo_diagnostic_01\\DroneNavigation\\DroneNavigation-499895.onnx",
+                "reward": 3.257270802743733,
+                "creation_time": 1792259851.5610752,
+                "auxillary_file_paths": [
+                    "results\\drone_ppo_diagnostic_01\\DroneNavigation\\DroneNavigation-499895.pt"
+                ]
+            },
+            {
+                "steps": 500023,
+                "file_path": "results\\drone_ppo_diagnostic_01\\DroneNavigation\\DroneNavigation-500023.onnx",
+                "reward": 3.257270802743733,
+                "creation_time": 1792259851.6536865,
+                "auxillary_file_paths": [
+                    "results\\drone_ppo_diagnostic_01\\DroneNavigation\\DroneNavigation-500023.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500023,
+            "file_path": "results\\drone_ppo_diagnostic_01\\DroneNavigation.onnx",
+            "reward": 3.257270802743733,
+            "creation_time": 1792259851.6536865,
+            "auxillary_file_paths": [
+                "results\\drone_ppo_diagnostic_01\\DroneNavigation\\DroneNavigation-500023.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cpu"
+    }
+}

@@ -112,3 +112,22 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# --- Navegacion Dron: reglas del proyecto ---
+# Escenas de recuperacion que Unity crea tras un cierre inesperado
+/[Aa]ssets/_Recovery/
+/[Aa]ssets/_Recovery.meta
+
+# Tiempos de ejecucion que ML-Agents genera en cada Play
+/[Aa]ssets/ML-Agents/
+/[Aa]ssets/ML-Agents.meta
+
+# Resultados de mlagents-learn: se conservan configuration.yaml, run_logs,
+# eventos de TensorBoard y el modelo final <run-id>/DroneNavigation.onnx.
+# Se excluyen checkpoints de PyTorch y modelos intermedios.
+results/**/*.pt
+results/*/DroneNavigation/*.onnx
+
+# Python
+__pycache__/
+*.pyc
