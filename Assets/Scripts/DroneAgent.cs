@@ -758,7 +758,7 @@ public class DroneAgent : Agent
         actions[2] = 0f;
     }
 
-    private void OnDrawGizmosSelected()
+    private void OnDrawGizmos()
     {
         if (targetPoint != null)
         {
